@@ -2,7 +2,7 @@
 
 Partnerska implementacija.
 
-**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [English](README.md)
+**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [Studija: EVROCERT](https://svilenkovicagency.com/studije/evrocert-registar-i-predaja/) · [English](README.md)
 
 > [!NOTE]
 > Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
@@ -10,7 +10,7 @@ Partnerska implementacija.
 <table>
   <tr><td><b>Vrsta</b></td><td>Partnerska implementacija</td></tr>
   <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>16 canonical stranica</td></tr>
+  <tr><td><b>Javne rute</b></td><td>18 canonical stranica</td></tr>
   <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
   <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>

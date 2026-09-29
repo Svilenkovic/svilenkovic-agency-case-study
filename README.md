@@ -2,7 +2,7 @@
 
 A partner delivery site for designers and agencies that need development, technical release and ongoing care.
 
-**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [Srpski](README.sr.md)
+**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [EVROCERT case study](https://svilenkovicagency.com/en/case-studies/evrocert-register-and-handoff/) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
@@ -10,7 +10,7 @@ A partner delivery site for designers and agencies that need development, techni
 <table>
   <tr><td><b>Type</b></td><td>Partner implementation</td></tr>
   <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>16 canonical pages</td></tr>
+  <tr><td><b>Public routes</b></td><td>18 canonical pages</td></tr>
   <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
   <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
