@@ -1,42 +1,58 @@
+<a href="https://svilenkovicagency.com/"><img src="media/cover.jpg" alt="Svilenković Agency, naslovna strana na laptopu i telefonu" width="100%"></a>
+
 # Svilenković Agency
 
-Partnerska implementacija.
+Sajt za studije i agencije kojima treba neko da izradi i objavi odobren dizajn, uz listu predaje koju druga strana može da proveri.
 
-**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [Studija: EVROCERT](https://svilenkovicagency.com/studije/evrocert-registar-i-predaja/) · [English](README.md)
+**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [Studija slučaja](https://svilenkovic.rs/radovi/svilenkovic-agency) · [English](README.md)
 
 > [!NOTE]
-> Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
+> Moj sopstveni projekat, ne klijentski posao. Izvorni kod je privatan. Ova stranica opisuje šta sajt radi i kako je napravljen.
 
 <table>
-  <tr><td><b>Vrsta</b></td><td>Partnerska implementacija</td></tr>
-  <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>18 canonical stranica</td></tr>
-  <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
-  <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Klijent</b></td><td>Sopstveni projekat</td></tr>
+  <tr><td><b>Delatnost</b></td><td>Izrada za dizajnere i agencije</td></tr>
+  <tr><td><b>Lokacija</b></td><td>Srbija</td></tr>
+  <tr><td><b>Vrsta</b></td><td>Sajt sa više strana</td></tr>
+  <tr><td><b>Moj deo posla</b></td><td>Istraživanje, dizajn, izrada, SEO i hosting</td></tr>
+  <tr><td><b>Tehnologije</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Namena
+## O projektu
 
-Neki projekti već imaju dizajnera, strategiju ili odnos sa klijentom. Ovaj sajt jasno određuje tehničku ulogu: pretvaranje odobrenog rada u responsive izradu, pripremu objave i vidljive odgovornosti.
+Partner koji predaje web posao treba da zna gde se završava dizajn, gde počinje izrada i šta će moći da proveri pri predaji. Svilenković Agency taj odnos prikazuje kao tehnički crtež koji se postepeno pretvara u gotov interfejs. Vizuelna osnova može da bude precizna, a da ništa ne kaže o prikazu na telefonu, formama, starim adresama ili pristupačnosti.
 
-## Dizajn pravac
+Strana Predaja izdvaja stavke koje druga strana može sama da proveri, pa ostaje manje prostora za neodređeno „završeno je“. Javni radovi prikazani su kao moji projekti i kao primeri obima. Nisam ih predstavio kao skrivene white-label poslove ni kao rad tuđe agencije, jer je ta granica važna za pošten prikaz saradnje.
 
-Interfejs je digitalni ploter. Čelične vodilice i žute registracione oznake vode nacrt od zadatka do produkcije, uz namerne promene poravnanja vezane za skrol.
+## Šta sam uradio
 
-## Šta je urađeno
+- Put od odobrenog dizajna do izdanja koje radi
+- Strana Predaja sa stavkama koje naručilac ili partner mogu da provere
+- Strane o procesu, white-label saradnji i studija o EVROCERT-u
+- Pokret u stilu plotera, sa kraćom verzijom za male ekrane
+- Obim se određuje iz stvarnog zadatka, bez javnih cenovnih paketa
 
-- Definisan put od odobrenog dizajna do funkcionalnog izdanja
-- Celine za partnerske uloge, ulaze, pregled i tehničku isporuku
-- Sistem pokreta inspirisan ploterom sa sažetom mobilnom verzijom
-- Kontakt tekst pisan za studije, konsultante i agencije
-- Obim se formira iz stvarnog zadatka umesto javnih cenovnih paketa
+## Merenja
 
-## Provere izdanja
+| | Performanse | Pristupačnost | Dobre prakse | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Telefon | 100 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-Svaka canonical ruta proverena je na širinama 390, 768, 1440 i 1920 px. Izdanje je provereno i bez JavaScript-a i uz reduced-motion postavku. Žive provere obuhvatile su HTTPS, preusmerenja, zaglavlja odgovora, strukturirane podatke, sitemap fajlove, zaštićene putanje i neispravne kontakt zahteve bez slanja test poruka.
+PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosna zaglavlja: 6 od 6. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `Organization`, `Person`.
 
-Ovo su inženjerske provere, a ne tvrdnje o poziciji u pretrazi ili terenskim performansama.
+## Snimci ekrana
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="Svilenković Agency, naslovna strana na ekranu širine 1440 px"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="Svilenković Agency, naslovna strana na telefonu"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Predaja na živom sajtu">
+<sub>Predaja na živom sajtu</sub>
 
 ---
 
-<sub>Dizajn i izrada: [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Izrada: [D. Svilenković](https://svilenkovic.rs).</sub>

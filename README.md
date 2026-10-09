@@ -1,42 +1,58 @@
+<a href="https://svilenkovicagency.com/"><img src="media/cover.jpg" alt="Svilenković Agency, home page on a laptop and a phone" width="100%"></a>
+
 # Svilenković Agency
 
-A partner delivery site for designers and agencies that need development, technical release and ongoing care.
+A site for studios and agencies that need an approved design built and released, with a handover list the other side can check.
 
-**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [EVROCERT case study](https://svilenkovicagency.com/en/case-studies/evrocert-register-and-handoff/) · [Srpski](README.sr.md)
+**[svilenkovicagency.com](https://svilenkovicagency.com/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/svilenkovic-agency) · [Srpski](README.sr.md)
 
 > [!NOTE]
-> This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
+> My own project, not client work. The source code is private. This page describes what the site does and how it is built.
 
 <table>
-  <tr><td><b>Type</b></td><td>Partner implementation</td></tr>
-  <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>18 canonical pages</td></tr>
-  <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
-  <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Client</b></td><td>Own project</td></tr>
+  <tr><td><b>Industry</b></td><td>Development partner for designers and agencies</td></tr>
+  <tr><td><b>Location</b></td><td>Serbia</td></tr>
+  <tr><td><b>Type</b></td><td>Multi-page website</td></tr>
+  <tr><td><b>My role</b></td><td>Research, design, development, SEO and hosting</td></tr>
+  <tr><td><b>Stack</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Purpose
+## About the project
 
-Some projects already have a designer, strategy or client relationship. This site defines the technical role clearly: translating approved work into a responsive build, preparing the release and keeping responsibilities visible.
+A partner who hands over web work needs to know where design ends, where the build starts and what they will be able to check at handover. Svilenković Agency shows that relationship as a technical drawing that slowly turns into a finished interface. A visual can be precise and still say nothing about the phone layout, forms, old URLs or accessibility.
 
-## Design direction
-
-The interface is a digital plotter. Steel rails and yellow registration marks carry a drawing from brief to production, with deliberate alignment changes tied to scroll.
+The Handover page lists items the other side can verify on its own, which leaves less room for a vague "it's done". Public examples are shown as my own projects and as examples of scope. I did not present them as hidden white-label jobs or as another agency's work, because that line matters for an honest picture of a partnership.
 
 ## What I built
 
-- A defined handoff path from approved design to working release
-- Sections for partner roles, inputs, review and technical delivery
-- A plotter-inspired motion system with a compact small-screen version
-- Contact language written for studios, consultants and agencies
-- Project scope formed from the actual brief rather than public price tiers
+- A path from approved design to a working release
+- A Handover page with items a client or partner can verify
+- Pages on the process, white-label work and an EVROCERT case study
+- A plotter-style motion system with a shorter version for small screens
+- Scope based on the actual brief, without public price tiers
 
-## Release checks
+## Results
 
-Every canonical route was checked at 390, 768, 1440 and 1920 px. The release was also tested without JavaScript and with reduced motion. Live checks covered HTTPS, redirects, response headers, structured data, sitemap files, protected paths and invalid contact requests without sending test mail.
+| | Performance | Accessibility | Best practices | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-These are engineering checks, not claims about search ranking or field performance.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. axe accessibility check: no violations. Structured data: `Organization`, `Person`.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="Svilenković Agency, home page on a 1440 px screen"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="Svilenković Agency, home page on a phone"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Handover checklist on the live site">
+<sub>Handover checklist on the live site</sub>
 
 ---
 
-<sub>Designed and built by [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Built by [D. Svilenković](https://svilenkovic.com).</sub>
